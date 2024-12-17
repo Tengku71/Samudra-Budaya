@@ -222,35 +222,72 @@
             });
           });
         });
-      });jQuery(document).ready(function () {
+      });
+      jQuery(document).ready(function () {
         // Load the path.js file
-        jQuery.getScript("../path.js", function () {
-          const regionContent = {}; // Initialize empty object
 
-          // Populate regionContent dynamically from the path data
-          path.forEach((region) => {
-            Object.assign(regionContent, region);
-          });
+        const regionContent = {}; // Initialize empty object
+        const path = [
+          {
+            path01: { href: "../aceh/index.html" },
+            path03: { href: "../sumbar/index.html" },
+            path04: { href: "../riau/index.html" },
+            path17: { href: "../bali/index.html" },
+            path19: { href: "../ntt/index.html" },
+            path27: { href: "../sulsel/index.html" },
+            path20: { href: "../kalbar/index.html" },
+            path33: { href: "../papua/index.html" },
+            path02: { href: "../sumut/index.html" },
+            path05: { href: "../jambi/index.html" },
+            path07: { href: "../bengkulu/index.html" },
+            path06: { href: "../sumsel/index.html" },
+            path08: { href: "../lampung/index.html" },
+            path14: { href: "../banten/index.html" },
+            path12: { href: "../jabar/index.html" },
+            path13: { href: "../jateng/index.html" },
+            path15: { href: "../jatim/index.html" },
+            path18: { href: "../ntb/index.html" },
+            path31: { href: "../maluku/index.html" },
+            path34: { href: "../papuabarat/index.html" },
+            path32: { href: "../malukuutara/index.html" },
+            path25: { href: "../sulut/index.html" },
+            path29: { href: "../gorontalo/index.html" },
+            path26: { href: "../sulteng/index.html" },
+            path30: { href: "../sulbar/index.html" },
+            path28: { href: "../sultenggara/index.html" },
+            path10: { href: "../kepriau/index.html" },
+            path09: { href: "../kepbangka/index.html" },
+            path23: { href: "../kaltim/index.html" },
+            path22: { href: "../kalsel/index.html" },
+            path21: { href: "../kalteng/index.html" },
+            path24: { href: "../kalut/index.html" },
+            path11: { href: "../jakarta/index.html" },
+            path16: { href: "../jogja/index.html" },
+          },
+        ];
+        // Populate regionContent dynamically from the path data
+        path.forEach((region) => {
+          Object.assign(regionContent, region);
+        });
 
-          // Now initialize the vector map
-          jQuery("#vmap").vectorMap({
-            map: "indonesia_id",
-            selectedColor: null,
-            colors: {
-              path33: "#7cff6a", // Set Aceh (path01) to green
-            },
-            onRegionClick: function (event, code, region) {
-              event.preventDefault();
+        // Now initialize the vector map
+        jQuery("#vmap").vectorMap({
+          map: "indonesia_id",
+          selectedColor: null,
+          colors: {
+            path33: "#7cff6a", // Set Aceh (path01) to green
+          },
+          onRegionClick: function (event, code, region) {
+            event.preventDefault();
 
-              const content = regionContent[code];
-              if (content && content.href) {
-                // Redirect to the href specified in the data
-                window.location.href = content.href;
-              } else {
-                alert("No data available for this region.");
-              }
-            },
-          });
+            const content = regionContent[code];
+            if (content && content.href) {
+              // Redirect to the href specified in the data
+              window.location.href = content.href;
+            } else {
+              alert("No data available for this region.");
+            }
+          },
         });
       });
     </script>
