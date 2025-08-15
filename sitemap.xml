@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Halaman Beranda -->
   <url>
     <loc>https://samudra-budaya.tengkudimas.my.id/</loc>
     <lastmod>2025-08-15</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Halaman Budaya -->
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/aceh/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/sumbar/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/riau/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/bali/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/ntt/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/sulsel/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/kalbar/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/papua/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/sumut/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/jambi/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/bengkulu/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/sumsel/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/lampung/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/banten/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/jabar/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/jateng/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/jatim/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/ntb/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/maluku/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/papuabarat/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/malukuutara/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/sulut/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/gorontalo/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/sulteng/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/sulbar/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/sultenggara/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/kepriau/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/kepbangka/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/kaltim/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/kalsel/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/kalteng/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/kalut/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/jakarta/index.html</loc></url>
+  <url><loc>https://samudra-budaya.tengkudimas.my.id/budaya/jogja/index.html</loc></url>
+
 </urlset>
