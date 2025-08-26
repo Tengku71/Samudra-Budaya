@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://samudra-budaya.tengkudimas.my.id/sitemap.xml
